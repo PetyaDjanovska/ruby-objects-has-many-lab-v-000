@@ -11,6 +11,7 @@ attr_accessor :name, :posts
   def add_post(post)
     self.posts << post
     post.author = self
+    @@all_posts << post
   end
 
   def add_post_by_title(title)
