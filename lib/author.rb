@@ -18,5 +18,9 @@ attr_accessor :name, :posts
     self.add_post(post)
   end
 
+  def post_count
+    @@post_count
+  end
+
 
 end
