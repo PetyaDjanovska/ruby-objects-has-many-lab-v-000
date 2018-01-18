@@ -19,7 +19,7 @@ attr_accessor :name, :posts
   end
 
   def post_count
-    @@post_count = = @@all_posts.count
+    @@post_count = @@all_posts.count
   end
 
 
